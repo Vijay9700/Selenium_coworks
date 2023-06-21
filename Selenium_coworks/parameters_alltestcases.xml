@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="https://demowebshop.tricentis.com/"></parameter>  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test_cases.DWS_CommunityPoll"/>
+      <class name="test_cases.DWS_Search_TC"/>
+      <class name="test_cases.DWS_Registerpage"/>
+      <class name="test_cases.DWS_Subscribe"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
